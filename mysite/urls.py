@@ -22,7 +22,7 @@ urlpatterns = [
     # Views file in present Index funtion callled
     path('', views.index, name='index'),
     # About is second funtion that type we are called about in views fill
-    path('about', views.about, name='about'),
+    path('TaxtTile',views.index, name='index'),
 
     path('analyze', views.analyze, name='analyze'),
     

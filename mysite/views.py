@@ -8,6 +8,7 @@ def index(request):  # request argument is complesory
 
 
 
+
 def analyze(request):
     djtext = request.POST.get('text','default')
     removepunc = request.POST.get('removepunc', 'off')
