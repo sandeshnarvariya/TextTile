@@ -1,0 +1,4 @@
+step 1. Go to \mysite\settings.py 
+setp2. search TEMPLATES and give folder name in{ 'DIRS': ['templates_folder_name'], }
+step3. Create folder near manage.py
+be alert manage.py and templates folder in same path or same folder
